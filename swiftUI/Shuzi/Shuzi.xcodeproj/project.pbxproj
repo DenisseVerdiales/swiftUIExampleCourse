@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064E9A742C1A795B00CD1218 /* Randomness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E9A732C1A795B00CD1218 /* Randomness.swift */; };
+		064E9A842C1A800100CD1218 /* nine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A792C1A800100CD1218 /* nine.aiff */; };
+		064E9A852C1A800100CD1218 /* eight.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A7A2C1A800100CD1218 /* eight.aiff */; };
+		064E9A862C1A800100CD1218 /* four.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A7B2C1A800100CD1218 /* four.aiff */; };
+		064E9A872C1A800100CD1218 /* one.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A7C2C1A800100CD1218 /* one.aiff */; };
+		064E9A882C1A800100CD1218 /* seven.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A7D2C1A800100CD1218 /* seven.aiff */; };
+		064E9A892C1A800100CD1218 /* six.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A7E2C1A800100CD1218 /* six.aiff */; };
+		064E9A8A2C1A800100CD1218 /* three.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A7F2C1A800100CD1218 /* three.aiff */; };
+		064E9A8B2C1A800100CD1218 /* ten.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A802C1A800100CD1218 /* ten.aiff */; };
+		064E9A8C2C1A800100CD1218 /* two.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A812C1A800100CD1218 /* two.aiff */; };
+		064E9A8D2C1A800100CD1218 /* five.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A822C1A800100CD1218 /* five.aiff */; };
+		064E9A8E2C1A800100CD1218 /* zero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A832C1A800100CD1218 /* zero.aiff */; };
+		064E9A942C1A803300CD1218 /* correct.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A8F2C1A803300CD1218 /* correct.aiff */; };
+		064E9A952C1A803300CD1218 /* awesome.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A902C1A803300CD1218 /* awesome.aiff */; };
+		064E9A962C1A803300CD1218 /* yes.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A912C1A803300CD1218 /* yes.aiff */; };
+		064E9A972C1A803300CD1218 /* bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A922C1A803300CD1218 /* bell.aiff */; };
+		064E9A982C1A803300CD1218 /* whoop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A932C1A803300CD1218 /* whoop.aiff */; };
+		064E9A9C2C1A804500CD1218 /* weak.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A992C1A804500CD1218 /* weak.aiff */; };
+		064E9A9D2C1A804500CD1218 /* incorrectAnswer.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A9A2C1A804500CD1218 /* incorrectAnswer.aiff */; };
+		064E9A9E2C1A804500CD1218 /* OhNo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 064E9A9B2C1A804500CD1218 /* OhNo.aiff */; };
+		064E9AA02C1A808B00CD1218 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064E9A9F2C1A808B00CD1218 /* GameViewModel.swift */; };
+		06D18BAA2BFC2F48003051D1 /* ShuziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D18BA92BFC2F48003051D1 /* ShuziApp.swift */; };
+		06D18BAC2BFC2F48003051D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D18BAB2BFC2F48003051D1 /* MainView.swift */; };
+		06D18BAE2BFC2F4A003051D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D18BAD2BFC2F4A003051D1 /* Assets.xcassets */; };
+		06D18BB12BFC2F4A003051D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D18BB02BFC2F4A003051D1 /* Preview Assets.xcassets */; };
+		06D18BBB2BFC2F4A003051D1 /* ShuziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D18BBA2BFC2F4A003051D1 /* ShuziTests.swift */; };
+		06D18BC52BFC2F4A003051D1 /* ShuziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D18BC42BFC2F4A003051D1 /* ShuziUITests.swift */; };
+		06D18BC72BFC2F4A003051D1 /* ShuziUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D18BC62BFC2F4A003051D1 /* ShuziUITestsLaunchTests.swift */; };
+		06D18BD42BFC2FCE003051D1 /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D18BD32BFC2FCE003051D1 /* Max.swift */; };
+		06E2D2202C0AB8E500D3A09C /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2D21F2C0AB8E500D3A09C /* GameModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D18BB72BFC2F4A003051D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D18B9E2BFC2F48003051D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D18BA52BFC2F48003051D1;
+			remoteInfo = Shuzi;
+		};
+		06D18BC12BFC2F4A003051D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D18B9E2BFC2F48003051D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D18BA52BFC2F48003051D1;
+			remoteInfo = Shuzi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064E9A732C1A795B00CD1218 /* Randomness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomness.swift; sourceTree = "<group>"; };
+		064E9A792C1A800100CD1218 /* nine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = nine.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/nine.aiff"; sourceTree = "<group>"; };
+		064E9A7A2C1A800100CD1218 /* eight.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = eight.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/eight.aiff"; sourceTree = "<group>"; };
+		064E9A7B2C1A800100CD1218 /* four.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = four.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/four.aiff"; sourceTree = "<group>"; };
+		064E9A7C2C1A800100CD1218 /* one.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = one.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/one.aiff"; sourceTree = "<group>"; };
+		064E9A7D2C1A800100CD1218 /* seven.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = seven.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/seven.aiff"; sourceTree = "<group>"; };
+		064E9A7E2C1A800100CD1218 /* six.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = six.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/six.aiff"; sourceTree = "<group>"; };
+		064E9A7F2C1A800100CD1218 /* three.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = three.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/three.aiff"; sourceTree = "<group>"; };
+		064E9A802C1A800100CD1218 /* ten.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = ten.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/ten.aiff"; sourceTree = "<group>"; };
+		064E9A812C1A800100CD1218 /* two.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = two.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/two.aiff"; sourceTree = "<group>"; };
+		064E9A822C1A800100CD1218 /* five.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = five.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/five.aiff"; sourceTree = "<group>"; };
+		064E9A832C1A800100CD1218 /* zero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = zero.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Digit Sounds/zero.aiff"; sourceTree = "<group>"; };
+		064E9A8F2C1A803300CD1218 /* correct.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = correct.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Sounds of Joy/correct.aiff"; sourceTree = "<group>"; };
+		064E9A902C1A803300CD1218 /* awesome.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = awesome.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Sounds of Joy/awesome.aiff"; sourceTree = "<group>"; };
+		064E9A912C1A803300CD1218 /* yes.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = yes.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Sounds of Joy/yes.aiff"; sourceTree = "<group>"; };
+		064E9A922C1A803300CD1218 /* bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = bell.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Sounds of Joy/bell.aiff"; sourceTree = "<group>"; };
+		064E9A932C1A803300CD1218 /* whoop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = whoop.aiff; path = "../../../../../../Downloads/Shuzi/Shuzi/Sounds/Sounds of Joy/whoop.aiff"; sourceTree = "<group>"; };
+		064E9A992C1A804500CD1218 /* weak.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = weak.aiff; path = ../../../../../../Downloads/Shuzi/Shuzi/Sounds/Incorrect/weak.aiff; sourceTree = "<group>"; };
+		064E9A9A2C1A804500CD1218 /* incorrectAnswer.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = incorrectAnswer.aiff; path = ../../../../../../Downloads/Shuzi/Shuzi/Sounds/Incorrect/incorrectAnswer.aiff; sourceTree = "<group>"; };
+		064E9A9B2C1A804500CD1218 /* OhNo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = OhNo.aiff; path = ../../../../../../Downloads/Shuzi/Shuzi/Sounds/Incorrect/OhNo.aiff; sourceTree = "<group>"; };
+		064E9A9F2C1A808B00CD1218 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		06D18BA62BFC2F48003051D1 /* Shuzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D18BA92BFC2F48003051D1 /* ShuziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuziApp.swift; sourceTree = "<group>"; };
+		06D18BAB2BFC2F48003051D1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		06D18BAD2BFC2F4A003051D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D18BB02BFC2F4A003051D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06D18BB62BFC2F4A003051D1 /* ShuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D18BBA2BFC2F4A003051D1 /* ShuziTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuziTests.swift; sourceTree = "<group>"; };
+		06D18BC02BFC2F4A003051D1 /* ShuziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuziUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D18BC42BFC2F4A003051D1 /* ShuziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuziUITests.swift; sourceTree = "<group>"; };
+		06D18BC62BFC2F4A003051D1 /* ShuziUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuziUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06D18BD32BFC2FCE003051D1 /* Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
+		06D18BD52BFC315E003051D1 /* Shuzi.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Shuzi.xctestplan; sourceTree = "<group>"; };
+		06E2D21F2C0AB8E500D3A09C /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D18BA32BFC2F48003051D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D18BB32BFC2F4A003051D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D18BBD2BFC2F4A003051D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064E9A722C1A793600CD1218 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				064E9A732C1A795B00CD1218 /* Randomness.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		064E9A752C1A7F0D00CD1218 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				064E9A782C1A7F3A00CD1218 /* Digit sounds */,
+				064E9A772C1A7F1C00CD1218 /* Sounds of joy */,
+				064E9A762C1A7F1600CD1218 /* Incorrect */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		064E9A762C1A7F1600CD1218 /* Incorrect */ = {
+			isa = PBXGroup;
+			children = (
+				064E9A9A2C1A804500CD1218 /* incorrectAnswer.aiff */,
+				064E9A9B2C1A804500CD1218 /* OhNo.aiff */,
+				064E9A992C1A804500CD1218 /* weak.aiff */,
+			);
+			path = Incorrect;
+			sourceTree = "<group>";
+		};
+		064E9A772C1A7F1C00CD1218 /* Sounds of joy */ = {
+			isa = PBXGroup;
+			children = (
+				064E9A902C1A803300CD1218 /* awesome.aiff */,
+				064E9A922C1A803300CD1218 /* bell.aiff */,
+				064E9A8F2C1A803300CD1218 /* correct.aiff */,
+				064E9A932C1A803300CD1218 /* whoop.aiff */,
+				064E9A912C1A803300CD1218 /* yes.aiff */,
+			);
+			path = "Sounds of joy";
+			sourceTree = "<group>";
+		};
+		064E9A782C1A7F3A00CD1218 /* Digit sounds */ = {
+			isa = PBXGroup;
+			children = (
+				064E9A7A2C1A800100CD1218 /* eight.aiff */,
+				064E9A822C1A800100CD1218 /* five.aiff */,
+				064E9A7B2C1A800100CD1218 /* four.aiff */,
+				064E9A792C1A800100CD1218 /* nine.aiff */,
+				064E9A7C2C1A800100CD1218 /* one.aiff */,
+				064E9A7D2C1A800100CD1218 /* seven.aiff */,
+				064E9A7E2C1A800100CD1218 /* six.aiff */,
+				064E9A802C1A800100CD1218 /* ten.aiff */,
+				064E9A7F2C1A800100CD1218 /* three.aiff */,
+				064E9A812C1A800100CD1218 /* two.aiff */,
+				064E9A832C1A800100CD1218 /* zero.aiff */,
+			);
+			path = "Digit sounds";
+			sourceTree = "<group>";
+		};
+		06D18B9D2BFC2F48003051D1 = {
+			isa = PBXGroup;
+			children = (
+				06D18BD52BFC315E003051D1 /* Shuzi.xctestplan */,
+				06D18BA82BFC2F48003051D1 /* Shuzi */,
+				06D18BB92BFC2F4A003051D1 /* ShuziTests */,
+				06D18BC32BFC2F4A003051D1 /* ShuziUITests */,
+				06D18BA72BFC2F48003051D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06D18BA72BFC2F48003051D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D18BA62BFC2F48003051D1 /* Shuzi.app */,
+				06D18BB62BFC2F4A003051D1 /* ShuziTests.xctest */,
+				06D18BC02BFC2F4A003051D1 /* ShuziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D18BA82BFC2F48003051D1 /* Shuzi */ = {
+			isa = PBXGroup;
+			children = (
+				064E9A752C1A7F0D00CD1218 /* Sounds */,
+				064E9A722C1A793600CD1218 /* Extensions */,
+				06E2D21E2C0AB26900D3A09C /* Model */,
+				06E2D21D2C0AB25700D3A09C /* ViewModel */,
+				06E2D21C2C0AB24A00D3A09C /* View */,
+				06D18BA92BFC2F48003051D1 /* ShuziApp.swift */,
+				06D18BAB2BFC2F48003051D1 /* MainView.swift */,
+				06D18BAD2BFC2F4A003051D1 /* Assets.xcassets */,
+				06D18BAF2BFC2F4A003051D1 /* Preview Content */,
+				06D18BD32BFC2FCE003051D1 /* Max.swift */,
+			);
+			path = Shuzi;
+			sourceTree = "<group>";
+		};
+		06D18BAF2BFC2F4A003051D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06D18BB02BFC2F4A003051D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06D18BB92BFC2F4A003051D1 /* ShuziTests */ = {
+			isa = PBXGroup;
+			children = (
+				06D18BBA2BFC2F4A003051D1 /* ShuziTests.swift */,
+			);
+			path = ShuziTests;
+			sourceTree = "<group>";
+		};
+		06D18BC32BFC2F4A003051D1 /* ShuziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06D18BC42BFC2F4A003051D1 /* ShuziUITests.swift */,
+				06D18BC62BFC2F4A003051D1 /* ShuziUITestsLaunchTests.swift */,
+			);
+			path = ShuziUITests;
+			sourceTree = "<group>";
+		};
+		06E2D21C2C0AB24A00D3A09C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06E2D21D2C0AB25700D3A09C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06E2D21E2C0AB26900D3A09C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06E2D21F2C0AB8E500D3A09C /* GameModel.swift */,
+				064E9A9F2C1A808B00CD1218 /* GameViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D18BA52BFC2F48003051D1 /* Shuzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D18BCA2BFC2F4A003051D1 /* Build configuration list for PBXNativeTarget "Shuzi" */;
+			buildPhases = (
+				06D18BA22BFC2F48003051D1 /* Sources */,
+				06D18BA32BFC2F48003051D1 /* Frameworks */,
+				06D18BA42BFC2F48003051D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shuzi;
+			productName = Shuzi;
+			productReference = 06D18BA62BFC2F48003051D1 /* Shuzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06D18BB52BFC2F4A003051D1 /* ShuziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D18BCD2BFC2F4A003051D1 /* Build configuration list for PBXNativeTarget "ShuziTests" */;
+			buildPhases = (
+				06D18BB22BFC2F4A003051D1 /* Sources */,
+				06D18BB32BFC2F4A003051D1 /* Frameworks */,
+				06D18BB42BFC2F4A003051D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D18BB82BFC2F4A003051D1 /* PBXTargetDependency */,
+			);
+			name = ShuziTests;
+			productName = ShuziTests;
+			productReference = 06D18BB62BFC2F4A003051D1 /* ShuziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06D18BBF2BFC2F4A003051D1 /* ShuziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D18BD02BFC2F4A003051D1 /* Build configuration list for PBXNativeTarget "ShuziUITests" */;
+			buildPhases = (
+				06D18BBC2BFC2F4A003051D1 /* Sources */,
+				06D18BBD2BFC2F4A003051D1 /* Frameworks */,
+				06D18BBE2BFC2F4A003051D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D18BC22BFC2F4A003051D1 /* PBXTargetDependency */,
+			);
+			name = ShuziUITests;
+			productName = ShuziUITests;
+			productReference = 06D18BC02BFC2F4A003051D1 /* ShuziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D18B9E2BFC2F48003051D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					06D18BA52BFC2F48003051D1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					06D18BB52BFC2F4A003051D1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 06D18BA52BFC2F48003051D1;
+					};
+					06D18BBF2BFC2F4A003051D1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 06D18BA52BFC2F48003051D1;
+					};
+				};
+			};
+			buildConfigurationList = 06D18BA12BFC2F48003051D1 /* Build configuration list for PBXProject "Shuzi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06D18B9D2BFC2F48003051D1;
+			productRefGroup = 06D18BA72BFC2F48003051D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D18BA52BFC2F48003051D1 /* Shuzi */,
+				06D18BB52BFC2F4A003051D1 /* ShuziTests */,
+				06D18BBF2BFC2F4A003051D1 /* ShuziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D18BA42BFC2F48003051D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064E9A892C1A800100CD1218 /* six.aiff in Resources */,
+				064E9A842C1A800100CD1218 /* nine.aiff in Resources */,
+				06D18BB12BFC2F4A003051D1 /* Preview Assets.xcassets in Resources */,
+				064E9A952C1A803300CD1218 /* awesome.aiff in Resources */,
+				064E9A8D2C1A800100CD1218 /* five.aiff in Resources */,
+				064E9A872C1A800100CD1218 /* one.aiff in Resources */,
+				064E9A882C1A800100CD1218 /* seven.aiff in Resources */,
+				064E9A982C1A803300CD1218 /* whoop.aiff in Resources */,
+				064E9A9E2C1A804500CD1218 /* OhNo.aiff in Resources */,
+				06D18BAE2BFC2F4A003051D1 /* Assets.xcassets in Resources */,
+				064E9A8E2C1A800100CD1218 /* zero.aiff in Resources */,
+				064E9A942C1A803300CD1218 /* correct.aiff in Resources */,
+				064E9A862C1A800100CD1218 /* four.aiff in Resources */,
+				064E9A8C2C1A800100CD1218 /* two.aiff in Resources */,
+				064E9A9D2C1A804500CD1218 /* incorrectAnswer.aiff in Resources */,
+				064E9A9C2C1A804500CD1218 /* weak.aiff in Resources */,
+				064E9A8B2C1A800100CD1218 /* ten.aiff in Resources */,
+				064E9A972C1A803300CD1218 /* bell.aiff in Resources */,
+				064E9A962C1A803300CD1218 /* yes.aiff in Resources */,
+				064E9A852C1A800100CD1218 /* eight.aiff in Resources */,
+				064E9A8A2C1A800100CD1218 /* three.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D18BB42BFC2F4A003051D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D18BBE2BFC2F4A003051D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D18BA22BFC2F48003051D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064E9AA02C1A808B00CD1218 /* GameViewModel.swift in Sources */,
+				06D18BAC2BFC2F48003051D1 /* MainView.swift in Sources */,
+				064E9A742C1A795B00CD1218 /* Randomness.swift in Sources */,
+				06E2D2202C0AB8E500D3A09C /* GameModel.swift in Sources */,
+				06D18BD42BFC2FCE003051D1 /* Max.swift in Sources */,
+				06D18BAA2BFC2F48003051D1 /* ShuziApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D18BB22BFC2F4A003051D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D18BBB2BFC2F4A003051D1 /* ShuziTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D18BBC2BFC2F4A003051D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D18BC72BFC2F4A003051D1 /* ShuziUITestsLaunchTests.swift in Sources */,
+				06D18BC52BFC2F4A003051D1 /* ShuziUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06D18BB82BFC2F4A003051D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D18BA52BFC2F48003051D1 /* Shuzi */;
+			targetProxy = 06D18BB72BFC2F4A003051D1 /* PBXContainerItemProxy */;
+		};
+		06D18BC22BFC2F4A003051D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D18BA52BFC2F48003051D1 /* Shuzi */;
+			targetProxy = 06D18BC12BFC2F4A003051D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06D18BC82BFC2F4A003051D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06D18BC92BFC2F4A003051D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D18BCB2BFC2F4A003051D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shuzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Denisse.Shuzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06D18BCC2BFC2F4A003051D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shuzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Denisse.Shuzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06D18BCE2BFC2F4A003051D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Denisse.ShuziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuzi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shuzi";
+			};
+			name = Debug;
+		};
+		06D18BCF2BFC2F4A003051D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Denisse.ShuziTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shuzi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shuzi";
+			};
+			name = Release;
+		};
+		06D18BD12BFC2F4A003051D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Denisse.ShuziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shuzi;
+			};
+			name = Debug;
+		};
+		06D18BD22BFC2F4A003051D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Denisse.ShuziUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shuzi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D18BA12BFC2F48003051D1 /* Build configuration list for PBXProject "Shuzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D18BC82BFC2F4A003051D1 /* Debug */,
+				06D18BC92BFC2F4A003051D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D18BCA2BFC2F4A003051D1 /* Build configuration list for PBXNativeTarget "Shuzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D18BCB2BFC2F4A003051D1 /* Debug */,
+				06D18BCC2BFC2F4A003051D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D18BCD2BFC2F4A003051D1 /* Build configuration list for PBXNativeTarget "ShuziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D18BCE2BFC2F4A003051D1 /* Debug */,
+				06D18BCF2BFC2F4A003051D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D18BD02BFC2F4A003051D1 /* Build configuration list for PBXNativeTarget "ShuziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D18BD12BFC2F4A003051D1 /* Debug */,
+				06D18BD22BFC2F4A003051D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06D18B9E2BFC2F48003051D1 /* Project object */;
+}
